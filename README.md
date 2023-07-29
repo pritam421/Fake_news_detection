@@ -16,15 +16,19 @@ Dataset - https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets
 The model utilizes a combination of machine learning algorithms to classify the news articles. The key steps in the model pipeline 
 include:
 
-Data Preprocessing: The dataset is preprocessed to handle missing values and remove irrelevant features that do not contribute 
+**Data Preprocessing:** The dataset is preprocessed to handle missing values and remove irrelevant features that do not contribute 
 significantly to the prediction task.
-Feature Engineering: Additional features may be engineered from the existing data to provide more information for the classification 
+
+**Feature Engineering:** Additional features may be engineered from the existing data to provide more information for the classification 
 models. For example, one can derive features like the number of reviews per day or sentiment scores from the text data.
-Model Training: The preprocessed dataset with engineered features is used to train several machine learning models, including 
+
+**Model Training:** The preprocessed dataset with engineered features is used to train several machine learning models, including 
 Logistic Regression, Decision Tree, Gradient Boosting, and Random Forest. The models are trained on a labeled training dataset.
-Model Evaluation: The trained models are evaluated on a separate test dataset to measure their performance. Evaluation metrics such 
+
+**Model Evaluation:** The trained models are evaluated on a separate test dataset to measure their performance. Evaluation metrics such 
 as accuracy, precision, recall, and F1-score are computed to assess model effectiveness.
-Prediction: The best-performing model is then used to predict the class labels (Fake News or Not Fake News) for new, unseen news articles.
+
+**Prediction:** The best-performing model is then used to predict the class labels (Fake News or Not Fake News) for new, unseen news articles.
 
 # Requirements
 
