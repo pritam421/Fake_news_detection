@@ -45,4 +45,4 @@ This project is inspired by the challenge of detecting fake news and contributes
 
 
 
-### Note : This project can be extend to stock market prediction , which will be using in coming days...
+**Note : This project can be extend to stock market prediction , which will be using in coming days...**
